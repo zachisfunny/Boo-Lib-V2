@@ -4,10 +4,10 @@ local Main = library:Main()
 --Tabs and Sections
 local Tab1 = Main:Tab("Tab")
 local Tab2 = Main:Tab("Tab two")
-local Section = Tab1:Section("Section")
+local Section1 = Tab1:Section("Section")
 
 --Button:
-Section:Item(
+Section1:Item(
     "button",
     "Button",
     function()
@@ -16,7 +16,7 @@ print("hi")
 )
 
 --Toggle:
-Section:Item(
+Section1:Item(
     "toggle",
     "Toggle",
     function(value)
@@ -34,7 +34,7 @@ Section:Item(
 )
 
 --TextBox:
-Section:Item(
+Section1:Item(
     "textbox",
     "TextBox",
     function(value)
@@ -44,7 +44,7 @@ Section:Item(
 )
 
 --Dropdown:
-Section:Item(
+Section1:Item(
     "dropdown",
     "DropDown",
     function(value)
@@ -54,4 +54,4 @@ Section:Item(
 )
 
 --Label:
-Section:Item("label", "Label")
+Section1:Item("label", "Label")
